@@ -8,11 +8,11 @@
 </head>
 <body>
     <ul>
-        {{-- @foreach($movies as $movie)
+        @foreach($movies as $movie)
             <li>
                 {{$movie}}
             </li>
-        @endforeach --}}
+        @endforeach
     </ul>
 
 </body>
