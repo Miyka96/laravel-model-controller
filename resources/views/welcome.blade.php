@@ -10,7 +10,8 @@
     <ul>
         @foreach($movies as $movie)
             <li>
-                {{$movie}}
+               <h4>{{$movie->title}}</h4>
+               <p>{{$movie->original_title}} <br> {{$movie->date}} </p> 
             </li>
         @endforeach
     </ul>
