@@ -1,9 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use app\models\Movie;
 use Illuminate\Http\Request;
-use app\Movie;
 
 class MovieController extends Controller
 {
